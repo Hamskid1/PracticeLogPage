@@ -1,0 +1,33 @@
+/* WelcomePage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0; /* Optional: background color */
+}
+
+.stacked-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 300px;
+  color: #333;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .stacked-text {
+    font-size: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stacked-text {
+    font-size: 200px;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import LoginPage from ".//Pages/LoginPage.jsx";
+import HomePage from ".//Pages/HomePage.jsx";
 import WelcomePage from ".//Pages/WelcomePage.jsx";
 
 function App() {
@@ -25,9 +25,23 @@ function App() {
 
   return (
     <div>
-      {currentScreen === "home" ? <WelcomePage /> : <LoginPage />}
+      {currentScreen === "home" ? <WelcomePage /> : <HomePage />}
     </div>
   );
 }
 
 export default App;
+
+// import React from 'react'
+// import WelcomePage from ".//Pages/WelcomePage.jsx";
+
+
+// function App() {
+//   return (
+//     <div>
+//       <WelcomePage/>
+//     </div>
+//   )
+// }
+
+// export default App
